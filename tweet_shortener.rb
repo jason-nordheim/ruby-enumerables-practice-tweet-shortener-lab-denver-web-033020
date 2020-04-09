@@ -1,6 +1,6 @@
 # Write your code here.
 
-def word_substituter words 
+def word_substituter words
   pattern = ""
   word.gsub()
 end
