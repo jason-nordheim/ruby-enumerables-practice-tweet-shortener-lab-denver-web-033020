@@ -1,13 +1,13 @@
 # Write your code here.
 
 def word_substituter words
-  words = words.gsub(" to "," 2 ") # substitute to for 2
-  words = words.gsub(" be "," b ") # shorten "be" to "b"
-  words = words.gsub(" at "," @ ") # shorten "at" to "@"
-  words = words.gsub(" you "," u ")
-  words = words.gsub(" and ", " & ")
-  words = words.gsub(" too ", " 2 ")
-  words = words.gsub(" for \i", " 4 ")
+  words = words.gsub(" t\io "," 2 ") # substitute to for 2
+  words = words.gsub(" b\ie "," b ") # shorten "be" to "b"
+  words = words.gsub(" a\it "," @ ") # shorten "at" to "@"
+  words = words.gsub(" y\iou "," u ")
+  words = words.gsub(" a\ind ", " & ")
+  words = words.gsub(" t\ioo ", " 2 ")
+  words = words.gsub(" f\ior ", " 4 ")
 end
 
 
