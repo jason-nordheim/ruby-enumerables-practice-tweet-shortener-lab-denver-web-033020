@@ -5,6 +5,7 @@ def word_substituter words
   words = words.gsub(" be ","b ") # shorten "be" to "b"
   words = words.gsub(" at "," @ ") # shorten "at" to "@"
   words = words.gsub(" you "," u ")
+  words = words.gsub(" and ", " & ")
 end
 
 
