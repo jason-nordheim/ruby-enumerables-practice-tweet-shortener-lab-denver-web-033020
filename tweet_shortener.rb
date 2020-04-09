@@ -21,5 +21,5 @@ def bulk_tweet_shortener tweets
 end
 
 def selective_tweet_shortener tweet
-  word_substituter(x).slice(0,140) 
+  word_substituter(tweet).slice(0,140) 
 end
