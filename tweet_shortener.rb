@@ -1,10 +1,10 @@
 # Write your code here.
 
 def word_substituter words
-  words.gsub("to\i","2") # substitute to for 2
-  words.gsub("be\i","b") # shorten "be" to "b"
-  words.gsub("at\i","@") # shorten "at" to "@"
-  words.gsub("you\i","u")
+  words = words.gsub("to\i","2") # substitute to for 2
+  words = words.gsub("be\i","b") # shorten "be" to "b"
+  words = words.gsub("at\i","@") # shorten "at" to "@"
+  words = words.gsub("you\i","u")
 end
 
 
