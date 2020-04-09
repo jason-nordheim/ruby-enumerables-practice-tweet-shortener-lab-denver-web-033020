@@ -13,5 +13,6 @@ a = "Hey guys, can anyone teach me how to be cool? I really want to be the best 
 b = "Hey guys, can anyone teach me how 2 b cool? I really want 2 b the best @ everything, u know what I mean? Tweeting is super fun u guys!!!!"
 
 def bulk_tweet_shortener tweets
-  tweets.map { |x| word_substituter(x)  }
+  tweets.each { |x| puts word_substituter(x)  }
+
 end
