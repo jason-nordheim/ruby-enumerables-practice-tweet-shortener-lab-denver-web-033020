@@ -6,6 +6,7 @@ def word_substituter words
   words = words.gsub(" at "," @ ") # shorten "at" to "@"
   words = words.gsub(" you "," u ")
   words = words.gsub(" and ", " & ")
+  words = words.gsub(" too ", " 2 ")
 end
 
 
