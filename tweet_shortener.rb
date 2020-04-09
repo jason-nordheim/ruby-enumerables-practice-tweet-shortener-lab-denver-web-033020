@@ -18,5 +18,8 @@ b = "Hey guys, can anyone teach me how 2 b cool? I really want 2 b the best @ ev
 
 def bulk_tweet_shortener tweets
   tweets.each { |x| puts word_substituter(x)  }
+end
+
+def selective_tweet_shortener tweets 
 
 end
