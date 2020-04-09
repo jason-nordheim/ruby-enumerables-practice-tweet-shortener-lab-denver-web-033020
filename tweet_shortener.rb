@@ -22,5 +22,4 @@ end
 
 def selective_tweet_shortener tweets
   tweets.map { |x| word_substituter(x)[0,140]  }
-
 end
