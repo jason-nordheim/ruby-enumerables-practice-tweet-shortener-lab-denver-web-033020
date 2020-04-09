@@ -8,7 +8,6 @@ def word_substituter words
   words = words.gsub(" and ", " & ")
   words = words.gsub(" too ", " 2 ")
   words = words.gsub(" for ", " 4 ")
-  
 end
 
 
