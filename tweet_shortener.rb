@@ -25,5 +25,5 @@ def selective_tweet_shortener tweet
     word_substituter(tweet).slice(0,140)
   else
     tweet
-  end 
+  end
 end
