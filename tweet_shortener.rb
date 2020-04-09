@@ -20,6 +20,6 @@ def bulk_tweet_shortener tweets
   tweets.each { |x| puts word_substituter(x)  }
 end
 
-def selective_tweet_shortener tweets
-  tweets.map { |x| word_substituter(x).slice(0,140)  }
+def selective_tweet_shortener tweet
+  word_substituter(x).slice(0,140) 
 end
