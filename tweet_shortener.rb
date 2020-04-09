@@ -21,5 +21,5 @@ def bulk_tweet_shortener tweets
 end
 
 def selective_tweet_shortener tweets
-  tweets.map { |x| word_substituter(x)[0,140]  }
+  tweets.map { |x| word_substituter(x).slice(0,140)  }
 end
